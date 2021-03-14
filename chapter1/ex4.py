@@ -19,11 +19,7 @@ def runlength(word: str) -> str:
         for i in range(0, len(word), 2):
             w = word[i:i+2]
             result += w[1]*int(w[0])
-        # 1B5W1B3W
-
-
-
-
+            
     return result
 
 print(runlength(run))
